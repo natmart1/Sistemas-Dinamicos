@@ -37,11 +37,10 @@ $$\dot{x} = \sin y - b\,x,\qquad \dot{y} = \sin z - b\,y,\qquad \dot{z} = \sin x
 
 Carpeta [`02_Talleres/`](02_Talleres)
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/natmart1/Sistemas-Dinamicos/blob/main/02_Talleres/Graficas_Talleres_Bifurcaciones.ipynb)
-
 | Archivo | Contenido |
 |---|---|
-| `Graficas_Talleres_Bifurcaciones.ipynb` | Gráficas de los talleres: modelo de Gompertz, potenciales $V(x)$, error del método de Euler vs $\Delta t$, campos vectoriales 1D y diagramas de bifurcación (silla-nodo, transcrítica, tridente), por ejemplo para $\dot x = r x - \frac{x}{1+x}$, $\dot x = x + \tanh(r x)$ y $\dot x = r x + a x^2 - x^3$. |
+| `Taller2_Graficas.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/natmart1/Sistemas-Dinamicos/blob/main/02_Talleres/Taller2_Graficas.ipynb) | Gráficas de los talleres de flujos en el círculo, sistemas lineales y planos de fase (ejercicios de Strogatz, capítulos 4 a 8): péndulo amortiguado, sistema excitable, diagrama traza-determinante, oscilador amortiguado, modelos de "amor" de Romeo y Julieta, variedades estables e inestables, Van der Pol, competencia de especies, sistemas conservativos, ciclos límite en polares, sistemas de Liénard, modelo de Tyson, Brusselator, osciladores acoplados en el toro y curvas de bifurcación. |
+| `Graficas_Talleres_Bifurcaciones.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/natmart1/Sistemas-Dinamicos/blob/main/02_Talleres/Graficas_Talleres_Bifurcaciones.ipynb) | Gráficas de los talleres: modelo de Gompertz, potenciales $V(x)$, error del método de Euler vs $\Delta t$, campos vectoriales 1D y diagramas de bifurcación (silla-nodo, transcrítica, tridente), por ejemplo para $\dot x = r x - \frac{x}{1+x}$, $\dot x = x + \tanh(r x)$ y $\dot x = r x + a x^2 - x^3$. |
 
 ## Cómo ejecutarlos
 
