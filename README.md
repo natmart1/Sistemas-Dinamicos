@@ -9,18 +9,35 @@ Trabajos de la asignatura **Sistemas Dinámicos y Caos** (2025-2), desarrollados
 
 Carpeta [`01_Trabajo_Final_Atractor_de_Thomas/`](01_Trabajo_Final_Atractor_de_Thomas)
 
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/natmart1/Sistemas-Dinamicos/blob/main/01_Trabajo_Final_Atractor_de_Thomas/Atractor_de_Thomas.ipynb)
+
 Sistema caótico de Thomas:
 
 $$\dot{x} = \sin y - b\,x,\qquad \dot{y} = \sin z - b\,y,\qquad \dot{z} = \sin x - b\,z$$
 
+<p align="center">
+  <img src="01_Trabajo_Final_Atractor_de_Thomas/imagenes/atractor_thomas_variando_b.gif" width="480" alt="Atractor de Thomas al variar b de 0.01 a 0.30">
+  <br><em>Evolución del atractor al variar el parámetro b de 0.01 a 0.30</em>
+</p>
+
+<p align="center">
+  <img src="01_Trabajo_Final_Atractor_de_Thomas/imagenes/plotly_celda1.png" width="400" alt="Atractor de Thomas, 100 000 partículas">
+  <img src="01_Trabajo_Final_Atractor_de_Thomas/imagenes/plotly_celda3.png" width="400" alt="Atractor de Thomas, alto contraste">
+</p>
+
+> Las figuras 3D del notebook son interactivas (Plotly) y GitHub no puede mostrarlas, así que en el notebook se ven como imágenes fijas. Para girarlas y usar el deslizador de *b*, ábrelo con el botón **Abrir en Colab**.
+
 | Archivo | Contenido |
 |---|---|
 | `Atractor_de_Thomas.ipynb` | Integración con Runge-Kutta de orden 4 (RK4), visualización 3D del atractor, animaciones y cálculo de los puntos fijos al resolver $b\,r = \sin r$. |
+| `imagenes/` | Imágenes fijas de las figuras 3D de Plotly y el GIF de la animación. |
 | `Puntos_Fijos_GeoGebra_v1.ggb`, `_v2.ggb` | Construcción en GeoGebra de la intersección de $y = \sin x$ y $y = b\,x$, que muestra cómo cambian los puntos fijos con el parámetro $b$. |
 
 ## Talleres
 
 Carpeta [`02_Talleres/`](02_Talleres)
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/natmart1/Sistemas-Dinamicos/blob/main/02_Talleres/Graficas_Talleres_Bifurcaciones.ipynb)
 
 | Archivo | Contenido |
 |---|---|
